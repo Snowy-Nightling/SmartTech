@@ -1,0 +1,144 @@
+body{
+    background-color: #FFFFFF;
+    text-align:center;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1, p, li, ul{
+    color: #03045E;
+}
+
+hr.bar {
+    border-top: 3px solid #03045E;
+    width: 60%;
+  }
+
+.topnav a {
+    float: left;
+    color: #03045E;
+    text-align: center;
+    padding: 30px 20px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.topnav{
+
+    overflow: hidden;
+    background-color: #90E0EF;
+    position: relative;
+}
+
+.topnav a:hover {
+    background-color: #ECE6F0;
+    color: #03045E;
+}
+
+
+.topnav-centered a {
+    float: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.topnav-right {
+    float: right;
+}
+
+<!-- dropdown menu style-->
+.dropmenu {
+position: relative;
+display: inline-block;
+}
+
+.dropmbtn {
+float: left;
+background-color: #90E0EF;
+color: #03045E;
+padding: 30px;
+font-size: 17px;
+border: none;
+}
+
+.dropdown-content {
+display: none;
+position: absolute;
+background-color: #ECE6F0;
+min-width: 160px;
+box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+z-index: 1;
+}
+
+.dropdown-content a {
+color: #03045E;
+padding: 12px 16px;
+text-decoration: none;
+display: block;
+}
+.dropdown-content a:hover {background-color: #90E0EF;}
+.dropmenu:hover .dropdown-content {display: block;} 
+.dropdown:hover .dropbtn {background-color: #90E0EF;}
+
+<!-- Search bar style -->
+
+      * {
+        box-sizing: border-box;
+        }
+
+        form.example input[type=text] {
+        padding: 10px;
+        font-size: 17px;
+        border: 1px solid grey;
+        float: left;
+        width: 74%;
+        background: #ECE6F0;
+        }
+
+        form.example button {
+        float: right;
+        width: 20%;
+        padding: 10px;
+        background: #2196F3;
+        color: white;
+        font-size: 17px;
+        border: 1px solid grey;
+        border-left: none;
+        cursor: pointer;
+        }
+
+        form.example button:hover {
+        background: #0b7dda;
+        }
+
+        form.example::after {
+        content: "";
+        clear: both;
+        display: table;
+        }
+
+.navbutton {
+    background-color: #90E0EF;
+    border: none;
+    color: #03045E;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 16px;
+    }
+          
+.navbutton:hover {
+    background-color: #ECE6F0;
+}
+
+.introCard{
+    background-color: #ECE6F0;
+    padding:20px;
+    margin-top: 20px;
+}
+                     
