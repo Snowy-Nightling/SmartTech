@@ -31,11 +31,23 @@
       <a href="#">SkullCandy Products</a>
       </div>
     </div>
+<a href="./AboutUs.html">About Us</a>
 
     <!-- Right-aligned links -->
     <div class="topnav-right">
-      <a href="./AboutUs.html">About Us</a>
-      <a href="#cart">Cart</a>
+
+      <button class="open-button" onclick="openForm()">Cart</button>
+       <div class="form-popup" id="myForm">
+        <form action="/action_page.php" class="form-container">
+         
+          <p>Cart</p>
+          <hr class="bar">
+          <p>Item list</p>
+          
+          <button type="submit" class="btn">Checkout</button>
+          <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
+        </form>
+      </div>
     </div>
     
   </div>
