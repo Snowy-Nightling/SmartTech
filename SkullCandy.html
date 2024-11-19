@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>SkullCandy</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="siteStyle.css">
+
+</head>
+<body>
+
+<!-- Top navigation -->
+<div class="topnav">
+
+    <!-- Centered link -->
+    <div class="topnav-centered">
+      <h1><a href="./index.html" class="active">SmartTech</a></h1>
+    </div>
+    
+    <!-- left menu drop down -->
+    <div class = "dropmenu">
+    <button class="dropmbtn">Menu</button>
+      <div class="dropdown-content">
+      <a href="./index.html">Home</a>
+      <a href="./Apple.html">Apple Products</a>
+      <a href="./Samsung.html">Samsung Products</a>
+      <a href="./SkullCandy.html">SkullCandy Products</a>
+      </div>
+    </div>
+ <a href="./AboutUs.html">About Us</a>
+
+    <!-- Right-aligned links -->
+    <div class="topnav-right">
+
+      <button class="open-button" onclick="openForm()">Cart</button>
+       <div class="form-popup" id="myForm">
+        <form action="/action_page.php" class="form-container">
+         
+          <p>Cart</p>
+          <hr class="bar">
+          <p>Item list</p>
+          
+          <button type="submit" class="btn">Checkout</button>
+          <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
+        </form>
+      </div>
+
+    <script>
+        function openForm() {
+          document.getElementById("myForm").style.display = "block";
+        }
+        
+        function closeForm() {
+          document.getElementById("myForm").style.display = "none";
+        }
+        </script>
+        
+    </div>
+    
+  </div>
+
+  <p> </p>
+
+<!-- search bar -->
+  <form class="example" action="/action_page.php" style="margin:auto;max-width:400px">
+    <input type="text" placeholder="Search.." name="search">
+    <button type="submit"><i class="fa fa-search"></i></button>
+  </form>
+
+
+  <p>SkullCandy Products</p>
+  <hr class="bar">
+  <p> </p>
+
+</body>
+</html>
