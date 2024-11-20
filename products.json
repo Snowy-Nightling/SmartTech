@@ -5,6 +5,7 @@
         {
             "id": "0001",
             "name": "Apple AirPods 4",
+            "image": "images/airpods-4.jpg",
             "price": "$250",
             "description": "Powerful H2 chip delivers clearer calls with voice isolation and a new, hands-free way to interact with Siri. Personalised spatial audio with dynamic head tracking places sound all around you. Rated IP54 dust, sweat and water resistant.",
             "catergory": "Apple",
@@ -13,6 +14,7 @@
         {
             "id": "0002",
             "name": "Apple AirPods Pro 2",
+            "image": "images/airpods-pro-2.jpg",
             "price": "$330",
             "description": "Pro-level active noise cancellation, adaptive audio for the right mix of noise control in any environment, transparency mode to hear the world around you and conversation awareness to seamlessly lower your media volume when you speak to someone nearby. IP54 dust, sweat, and water resistant.",
             "catergory": "Apple",
@@ -21,6 +23,7 @@
         {
             "id": "0003",
             "name": "Apple 240W USB-C Charge Cable (2m)",
+            "image": "images/apple-240w-usb-c.jpg",
             "price": "$35",
             "description": "2-metre charging cable is made with a woven design with USB-C connectors on both ends and is ideal for charging, syncing and transferring data between USB-C devices. Supports charging of up to 240 watts and transfers data at USB 2 rates.",
             "catergory": "Apple",
@@ -28,7 +31,8 @@
         },
         {
             "id": "0004",
-            "name": "Apple USB-C to Lightning Cable (2 m)",
+            "name": "Apple USB-C to Lightning Cable (2m)",
+            "image": "apple-usb-c-lightning.jpg",
             "price": "$40",
             "description": "Connect your device with Lightning connector to your USB-C or Thunderbolt-3 (USB-C) enabled device for syncing and charging. Can also use this cable with your Apple 18W, 20W, 29W, 30W, 61W, 87W or 96W USB‑C Power Adapter to charge your iOS device.",
             "catergory": "Apple",
@@ -37,6 +41,7 @@
         {
             "id": "0005",
             "name": "iPhone 16 Pro Silicone Case with MagSafe",
+            "image": "images/iphone-16pro-silicone-case.jpg",
             "price": "$70",
             "description": "Made with a 55 per cent recycled silicone material, works seamlessly with Camera Control. With built-in magnets that align perfectly with iPhone 16 Pro, this case offers a magical attach experience and faster wireless charging, every time.",
             "catergory": "Apple",
@@ -45,6 +50,7 @@
         {
             "id": "0006",
             "name": "iPhone 16 Silicone Case with MagSafe",
+            "image": "images/iphone16-silicone-case.jpg",
             "price": "$70",
             "description": "Made with a 55 per cent recycled silicone material, works seamlessly with Camera Control. With built-in magnets that align perfectly with iPhone 16, this case offers a magical attach experience and faster wireless charging, every time.",
             "catergory": "Apple",
@@ -53,6 +59,7 @@
         {
             "id": "0007",
             "name": "Samsung Galaxy Buds3 Pro",
+            "image": "images/galaxy-buds-3-pro.jpg",
             "price": "$300",
             "description": "Ultimate Hi-Fi, iconic design with blade lights and adaptive noise control. IP57 dust, sweat, and water resistant.",
             "catergory": "Samsung",
@@ -61,6 +68,7 @@
         {
             "id": "0008",
             "name": "Samsung Fast Charge Travel Charger with Micro USB and USB-C combo cable",
+            "image": "",
             "price": "$20",
             "description": "Fast charge galaxy smartphones with 15 watt 2 amp speed. Includes 5 ft. Micro USB cable with attached Micro USB to USB-C adapter",
             "catergory": "Samsung",
@@ -69,6 +77,7 @@
         {
             "id": "0009",
             "name": "SkullCandy Terrain Wireless Bluetooth Portable Speaker",
+            "image": "images/terrain-wireless-speaker.jpg",
             "price": "$90",
             "description": "All-Weather audio with ground-thumping bass. Water proof with 14 hour battery life, wireless stero with bluetooth v5.3 and USB-C charging port.",
             "catergory": "SkullCandy",
@@ -77,6 +86,7 @@
         {
             "id": "0010",
             "name": "SkullCandy Push ANC Active earbuds",
+            "image": "images/push-anc-active-earbuds.jpg",
             "price": "$180",
             "description": "Zero-compromise active earbud for the athlete who doesn’t hold back. Comfortable, low-profile ear hangers, fully waterproof construction, adjustable Stay-Aware mode and 4-Mic active noise canceling to get you in the zone.",
             "catergory": "SkullCandy",
@@ -85,6 +95,7 @@
         {
             "id": "0011",
             "name": "SkullCandy Crusher ANC 2",
+            "image": "images/crusher-anc-2.jpg",
             "price": "$130",
             "description": "Personal Sound and hands-free voice control plus a blend of adjustable 4-mic digital active noise canceling and Crusher Bass that’s so perfect, we had it patented. Experience full sound and amazing bass you can actually feel.",
             "catergory": "SkullCandy",
