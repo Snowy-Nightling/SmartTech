@@ -1,9 +1,9 @@
-{
-"products": {
-    "data":{
-        "items": [
+[
+
+    
+        
         {
-            "id": "0001",
+            "id": "1",
             "name": "Apple AirPods 4",
             "image": "images/airpods-4.jpg",
             "price": "$250",
@@ -12,7 +12,7 @@
             "subcatergory": "Audio"
         },
         {
-            "id": "0002",
+            "id": "2",
             "name": "Apple AirPods Pro 2",
             "image": "images/airpods-pro-2.jpg",
             "price": "$330",
@@ -21,7 +21,7 @@
             "subcatergory": "Audio"
         },
         {
-            "id": "0003",
+            "id": "3",
             "name": "Apple 240W USB-C Charge Cable (2m)",
             "image": "images/apple-240w-usb-c.jpg",
             "price": "$35",
@@ -30,7 +30,7 @@
             "subcatergory": "Cables"
         },
         {
-            "id": "0004",
+            "id": "4",
             "name": "Apple USB-C to Lightning Cable (2m)",
             "image": "apple-usb-c-lightning.jpg",
             "price": "$40",
@@ -39,7 +39,7 @@
             "subcatergory": "Cables"
         },
         {
-            "id": "0005",
+            "id": "5",
             "name": "iPhone 16 Pro Silicone Case with MagSafe",
             "image": "images/iphone-16pro-silicone-case.jpg",
             "price": "$70",
@@ -48,7 +48,7 @@
             "subcatergory": "Cases"
         },
         {
-            "id": "0006",
+            "id": "6",
             "name": "iPhone 16 Silicone Case with MagSafe",
             "image": "images/iphone16-silicone-case.jpg",
             "price": "$70",
@@ -57,7 +57,7 @@
             "subcatergory": "Cases"
         },
         {
-            "id": "0007",
+            "id": "7",
             "name": "Samsung Galaxy Buds3 Pro",
             "image": "images/galaxy-buds-3-pro.jpg",
             "price": "$300",
@@ -66,7 +66,7 @@
             "subcatergory": "Audio"
         },
         {
-            "id": "0008",
+            "id": "8",
             "name": "Samsung Fast Charge Travel Charger with Micro USB and USB-C combo cable",
             "image": "",
             "price": "$20",
@@ -75,7 +75,7 @@
             "subcatergory": "Cables"
         },
         {
-            "id": "0009",
+            "id": "9",
             "name": "SkullCandy Terrain Wireless Bluetooth Portable Speaker",
             "image": "images/terrain-wireless-speaker.jpg",
             "price": "$90",
@@ -84,7 +84,7 @@
             "subcatergory": "Audio"
         },
         {
-            "id": "0010",
+            "id": "10",
             "name": "SkullCandy Push ANC Active earbuds",
             "image": "images/push-anc-active-earbuds.jpg",
             "price": "$180",
@@ -93,7 +93,7 @@
             "subcatergory": "Audio"
         },
         {
-            "id": "0011",
+            "id": "11",
             "name": "SkullCandy Crusher ANC 2",
             "image": "images/crusher-anc-2.jpg",
             "price": "$130",
@@ -101,7 +101,6 @@
             "catergory": "SkullCandy",
             "subcatergory": "Audio"
         }
-        ]
-    }
-}
-}
+     
+  
+]
