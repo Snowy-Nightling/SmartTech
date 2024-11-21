@@ -17,7 +17,7 @@
     font-size: 18px;
     border: none;
     outline: none;
-    background-color: #0056b3;
+    background-color: #03045E;
     color: white;
     cursor: pointer;
     padding: 15px;
@@ -25,7 +25,7 @@
   }
   
   #myBtn:hover {
-    background-color: #90E0EF;
+    background-color: #0b7dda;
   }
 
 </style>
@@ -90,6 +90,7 @@
     <button type="submit"><i class="fa fa-search"></i></button>
   </form>
 
+    <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
 
   <p>All Products</p>
   <hr class="bar">
@@ -201,10 +202,7 @@
       <p>Post description: Personal Sound and hands-free voice control plus a blend of adjustable 4-mic digital active noise canceling and Crusher Bass that’s so perfect, we had it patented. Experience full sound and amazing bass you can actually feel.</p>
       <a href = "">Read More</a>
     </div>
-
-    <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
-
-    <script>
+<script>
       // Get the button
       let mybutton = document.getElementById("myBtn");
       
@@ -224,5 +222,6 @@
         document.body.scrollTop = 0;
         document.documentElement.scrollTop = 0;
       }
+      </script>
 </body>
 </html>
