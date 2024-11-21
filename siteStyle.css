@@ -301,7 +301,7 @@ body.showCart .container{
 .listCart{
   overflow: auto;
 }
-
+/*
 .products{
   display: grid;
   grid-template-columns: repeat(auto-fit,minmax(300px,1 fr));
@@ -328,3 +328,4 @@ body.showCart .container{
   overflow: hidden;
   text-overflow:ellipsis;
   }
+*/
