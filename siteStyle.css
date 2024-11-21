@@ -301,3 +301,30 @@ body.showCart .container{
 .listCart{
   overflow: auto;
 }
+
+.products{
+  display: grid;
+  grid-template-columns: repeat(auto-fit,minmax(300px,1 fr));
+  gap: 1.5em;
+  padding: 16px;
+  }
+  
+  .products{
+  padding: 0.5em;
+  border: 2px solid #0056b3;
+  border-radius: 5px;
+  padding: 5px;
+  display: grid;
+  gap: 0.5em;}
+  
+  .products:hover{
+  border: 2px solid #8897C9;
+  opacity: 0.8;
+  }
+  
+  .products p{
+  width: 100%;
+  wite-space: nowrap:
+  overflow: hidden;
+  text-overflow:ellipsis;
+  }
