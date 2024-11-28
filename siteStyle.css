@@ -130,6 +130,8 @@ display: block;
     margin: 4px 2px;
     cursor: pointer;
     border-radius: 16px;
+    height:75px;
+    width:150px;
     }
           
 .navbutton:hover {
