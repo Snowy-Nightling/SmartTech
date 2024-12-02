@@ -54,16 +54,16 @@
     <!-- Right-aligned links -->
     <div class="topnav-right">
   
-  <button class="open-button" onclick="openForm()">Cart</button>
+ <button class="open-button" onclick="openForm()">Cart</button>
        <div class="form-popup" id="myForm">
         <form action="/action_page.php" class="form-container">
-
-        <h1>Cart</h1>
-          <div class="listCart"></div>
-      <div class="btn">
-        <button class="close" onclick="closeForm()>CLOSE</button>
-        <button class="checkOut">CHECK OUT</button>
-      </div>
+         
+          <p>Cart</p>
+          <hr class="bar">
+          <p>Item list</p>
+          
+          <button type="submit" class="btn">Checkout</button>
+          <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
         </form>
       </div>
 
@@ -76,7 +76,7 @@
           document.getElementById("myForm").style.display = "none";
         }
         </script>
-        
+      </div>
     </div>
   <p> </p>
 
