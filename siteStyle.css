@@ -274,13 +274,14 @@ body.showCart .container{
 }
 
 .cartTab .btn button{
-  background-color: lightskyblue;
+  background-color: #90E0EF;
+  color: #03045E;
   border: none;
   cursor: pointer;
 }
 
 .cartTab .btn .close{
-  background-color: #eee;
+  background-color: #ECE6F0;
 }
 
 .cartTab .listCart .item img{
