@@ -277,8 +277,6 @@ body.showCart .container{
 }
 
 .cartTab .btn button{
-  background-color: #90E0EF;
-  color: #03045E;
   border: none;
   cursor: pointer;
   font-weight: 500;
