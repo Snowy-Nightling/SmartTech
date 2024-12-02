@@ -53,24 +53,23 @@
 
     <!-- Right-aligned links -->
     <div class="topnav-right">
-
-      <div class="icon-cart">
-        <button class="open-button" onclick="openForm()">Cart</button>
-      </div>
-
-        <div class="cartTab" id="myForm">
-            <form action="/action_page.php" class="form-container">
+  
+      <button class="open-button" onclick="openForm()">Cart</button>
+       <div class="form-popup" id="myForm">
+         <form action="/action_page.php" class="form-container">
+         
+          <div class="cartTab">
             <h1>Cart</h1>
-        <div class="listCart"></div>
+            <div class="listCart"></div>
           <div class="btn">
             <button class="close" onclick="closeForm()">CLOSE</button>
             <button class="checkOut" >CHECK OUT</button>
-          </div>
+          </div>   
         </div>
             
         </form>
-      </div>
-      
+       </div>
+     </div>
 
     <script>
         function openForm() {
