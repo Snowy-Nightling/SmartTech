@@ -219,7 +219,7 @@ display: block;
   
   /* Add styles to the form container */
   .form-container {
-    width: 300px;
+    width: 400px;
     max-width: 400px;
     padding: 10px;
     background-color: white;
@@ -252,7 +252,7 @@ display: block;
   color: #03045E;
   position: fixed;
   top: 0;
-  right: -400px;
+    
   bottom: 0;
   display: grid;
   grid-template-rows: 70px 1fr 70px;
