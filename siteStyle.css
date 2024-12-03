@@ -24,7 +24,6 @@ hr.bar {
 }
 
 .topnav{
-
     overflow: hidden;
     background-color: #90E0EF;
     position: relative;
@@ -252,7 +251,7 @@ display: block;
   color: #03045E;
   position: fixed;
   top: 0;
-    
+  right: -400px;
   bottom: 0;
   display: grid;
   grid-template-rows: 70px 1fr 70px;
@@ -262,7 +261,7 @@ body.showCart .cartTab{
   right: 0;
 }
 body.showCart .container{
-  transform: translateX(-250px);
+  transform: translateX(-150px);
 }
 .cartTab h1{
   padding: 20px;
